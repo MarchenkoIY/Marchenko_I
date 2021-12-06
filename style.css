@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+  }
+  p {
+    padding: 2vh;
+  }
+  div.header {
+    width: 100%;
+    height: 8vh;
+    background: #FAF0E6;
+    margin: auto;
+  }
+  a.header {
+    color: #696969;
+    margin: 20px;
+    padding-top: 10px;
+    font-size: 16pt;
+  }
+  div.main {
+    height: 39vh;
+    width: 100%;
+    background-image: url('bgmenu.jpg');
+    background-position: 20% top;
+    background-repeat: repeat-y;
+  }
+  div.menu {
+    width: 19%;
+    height: 39vh;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  div.content {
+    min-height: 45vh;
+    width: 100%;
+    background-color: #EEEEEE;
+  }
+  div.ender {
+    position: bottom;
+    color: #808080;
+    font-size: 10pt;
+    height: 8vh;
+    width: 100%;
+    background: #FAF0E6;
+    text-align: center;
+  }
+  img.logo {
+    height: 8vh;
+    float: left;
+  } 
+  .li {
+    padding: 2vh;
+    padding-left: 2vh;
+    font-size: 17pt;
+    font-family: 'Times New Roman', Times, serif;
+  }
+a.menu {
+  color: #696969;
+  text-decoration: none;
+}
+.container {
+  width: 76%;
+  display: flex;
+  padding: 0 20px;
+  align-items: flex-start;
+}
+
+.slide {
+  height: 39vh; 
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  margin: 0 2vh 0 2vh;
+  border-radius: 10px;
+}
+
+.slide h3 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+  color: #fff;
+  border-radius: 5px;  
+  background-color: black;
+  padding: 5px;
+}
+
+.slide.active {
+  flex: 15;
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opasity 0.1s ease-in 0.1s;
+}
+.a {
+  text-align: center;
+  padding: 10px;
+}
+.unit {
+  float: left;
+  width: 20vh;
+  height: 230px;
+  border: solid #808080 2px;  
+  text-align: center;
+  margin: 10px;
+}
+.book {
+  height: 150px;
+  margin: 10px;
+}
+.onebook {
+  width: 100%;
+  float: left;
+  padding-right: 20px;
+}
+div.bmenu {
+  width: 19%;
+  float: left;
+}
+div.bmain {
+  width: 100%;
+  height: 84vh;
+  background-image: url('bgmenu.jpg');
+  background-position: 21% top;
+  background-repeat: repeat-y;
+}
+.hbook {
+  text-align: center;
+  padding: 20px;
+}
+.load {
+  background-color: aqua;
+  border: solid rgb(0, 0, 0) 1px;
+  border-radius: 5px;
+  margin: 25px;
+  padding: 10px;
+  font-size: 20pt;
+}
